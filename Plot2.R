@@ -1,6 +1,3 @@
-#Get File Command 
-#Check about unzip Code
-
 ElectricalData <- read.table("household_power_consumption.txt",sep=";",header=TRUE, stringsAsFactors=FALSE)
 #Date Conversions
 ElectricalData$Date <- as.Date(ElectricalData$Date,"%d/%m/%Y")
